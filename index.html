@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assests/favico.netflix/4375011_logo_netflix_icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assests/pngwing.com.png" alt="FilmesFlix Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="https://www.netflix.com/login">Séries</a></li>
+                <li><a href="https://www.netflix.com/login">Filmes</a></li>
+                <li><a href="https://www.netflix.com/login">Entrar</a></li>
+                <li><a href="https://www.netflix.com/login">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="subscription">
+            <h1>Escolha o melhor plano para você</h1>
+            <div class="plan-options">
+                <div class="plan">
+                    <h2>Básico</h2>
+                    <p>R$ 5,90/mês</p>
+                    <ul>
+                        <li>Assistir em uma tela por vez</li>
+                        <li>Sem HD ou Ultra HD</li>
+                    </ul>
+                    <button>Assine Agora</button>
+                </div>
+                <div class="plan">
+                    <h2>Standard</h2>
+                    <p>R$ 49,90/mês</p>
+                    <ul>
+                        <li>Assistir em até duas telas ao mesmo tempo</li>
+                        <li>HD disponível</li>
+                    </ul>
+                    <button>Assine Agora</button>
+                </div>
+                <div class="plan">
+                    <h2>Premium</h2>
+                    <p>R$ 69,90/mês</p>
+                    <ul>
+                        <li>Assistir em até quatro telas ao mesmo tempo</li>
+                        <li>HD e Ultra HD disponíveis</li>
+                    </ul>
+                    <button>Assine Agora</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="signup">
+            <h1>Crie Sua Conta</h1>
+            <form action="#" method="post">
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm-password">Confirme a Senha:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+                <label for="plan">Escolha o Plano:</label>
+                <select id="plan" name="plan">
+                    <option value="basic">Básico - R$ 5,90/mês</option>
+                    <option value="standard">Standard - R$ 49,90/mês</option>
+                    <option value="premium">Premium - R$ 69,90/mês</option>
+                </select>
+                <a href="pagamento/pagamento.html" class="botao">Criar Conta</a>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Netflix. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
